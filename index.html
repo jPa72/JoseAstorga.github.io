@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+</head>
+<link rel="stylesheet" href="estilo.css" />
+<script src="script.js"></script>
+
+<body>
+    <header class="banner">
+        <div class="container_16">
+            <figure>
+                <div id="Foto"></div>
+            </figure>
+            <hgroup>
+                <h1 id="name"></h1>
+                <h2 id="Tel"></h2>
+                <h2 id="mail"></h2>
+                <h1>Curriculum vitae</h1>
+            </hgroup>
+        </div>
+    </header>
+
+    <nav id="menu" class="container_16">
+
+        <li><a href="#" onclick="mostrarDiv('home')">Sobre Mí</a></li>
+        <li><a href="#" onclick="mostrarDiv('Experiencia')">Experiencias</a></li>
+        <li><a href="#" onclick="mostrarDiv('Formacion')">Formación</a></li>
+        <li><a href="#" onclick="mostrarDiv('Redes')">Contacto</a></li>
+
+    </nav>
+    <div id="home">
+        <div class="container_16">
+            <div class="grid_8">
+                <img class="icon" src="https://i.imgur.com/8msw88z.png">
+                <h3>Sobre mí</h3>
+                <p>Hola soy programador web.</p>
+                <p>Actualmente soy desarrollador web freelance. Si estás interesado en el desarrollo de cualquier
+                    aplicación
+                    para dispositivos móviles o web puedes contactar conmigo, ya seas una empresa o profesional. Seguro
+                    que
+                    juntos podremos poner en marcha el proyecto que tienes en mente.</p>
+                <p>¡Un saludo!</p>
+            </div>
+
+            <div class="grid_8">
+                <img class="icon" src="https://i.imgur.com/x1sZUlS.png">
+                <h3>Conocimientos</h3>
+                <ul class="values">
+                    <li>HTML5<span style="width: 90%;"></span></li>
+                    <li>CSS3<span style="width: 85%;"></span></li>
+                    <li>Javascript<span style="width: 80%;"></span></li>
+                    <li>jQuery<span style="width: 80%;"></span></li>
+                    <li>Android KitKat SDK<span style="width: 95%;"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="Experiencia">
+        <div class="container_16">
+            <div class="grid_16">
+                <img class="icon" src="https://i.imgur.com/gIXe1cf.png">
+                <h3>Experiencias</h3>
+                <ul>
+                    <li>
+                        <h4><strong>Programador web</strong></h4>
+                        <span class="site">Freelance</span>
+                        <span class="date">2013 - Actualmente</span>
+                        <p>Desarrollo de aplicaciones/páginas web y dispositivos móviles.</p>
+                    </li>
+                    <li>
+                        <h4><strong>Analista/programador</strong></h4>
+                        <span class="site">Open Canarias S.L.</span>
+                        <span class="date">2011 - 2013</span>
+                        <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de
+                            Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
+                    </li>
+                    <li>
+                        <h4><strong>Analista/programador</strong></h4>
+                        <span class="site">Personal Software System S.L.</span>
+                        <span class="date">2008 - 2011</span>
+                        <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de
+                            Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="Formacion">
+        <div class="container_16">
+
+            <div class="grid_16">
+                <img class="icon" src="https://i.imgur.com/mTJKfOj.png">
+                <h3>Formación</h3>
+                <div class="formation1">
+                    <ul>
+                        <li>
+                            <h4><strong>Curso de Diseño Web con CSS3</strong></h4>
+                            <span class="site">Fundación General de la Universidad de La Laguna.</span>
+                            <span class="date">2014</span>
+                        </li>
+                        <li>
+                            <h4><strong>Curso de Programación de Apps Móviles</strong></h4>
+                            <span class="site">Universidad Complutense de Madrid - Google.</span>
+                            <span class="date">2014</span>
+                        </li>
+                        <li>
+                            <h4><strong>Curso de Android KitKat 4.4</strong></h4>
+                            <span class="site">Imagina Formación.</span>
+                            <span class="date">2014</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="formation2">
+                    <ul>
+                        <li>
+                            <h4><strong>Curso de Analítica Web</strong></h4>
+                            <span class="site">Escuela de Organización Industrial - Google.</span>
+                            <span class="date">2014</span>
+                        </li>
+                        <li>
+                            <h4><strong>Android: Programación de aplicaciones</strong></h4>
+                            <span class="site">MiriadaX.</span>
+                            <span class="date">2013</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Redes">
+        <div class="container_16">
+            <div class="grid_8 ">
+                <img class="icon" src="https://i.imgur.com/mTJKfOj.png">
+                <h3>Redes - Contacto</h3>
+                <div>
+                    <a href="#"><img class="social" src="https://imgur.com/FyuhhGf.png" alt="Email"></a>
+                    <a href="#"><img class="social" src="https://imgur.com/ZvnZYqb.png" alt="Google+"></a>
+                    <a href="#"><img class="social" src="https://imgur.com/kouWDG0.png" alt="LinkedIn"></a>
+                </div>
+                <div>
+                    <a href="#"><img class="social" src="https://imgur.com/PXBh6dj.png" alt="Twitter"></a>
+                    <a href="#"><img class="social" src="https://imgur.com/jKIJuCJ.png" alt="Facebook"></a>
+                    <a href="#"><img class="social" src="https://imgur.com/ePCHOOz.png" alt="Wordpress"></a>
+                </div>
+            </div>
+
+            <div class="grid_8 information ">
+                <img class="icon" src="https://i.imgur.com/1JUepNb.png" alt="Otros datos">
+                <h3>Otros datos</h3>
+                <ul class="information">
+                    <li>Inglés nivel medio</li>
+                    <li>Facilidad para trabajar en equipo</li>
+                    <li class="">Aprendizaje rápido en nuevas tecnologías</li>
+                    <li class="">carnet B1, coche propio</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

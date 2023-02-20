@@ -1,0 +1,245 @@
+/* Fuente de Google */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+  margin: 0
+}
+
+/**********
+/* cabecera
+**********/
+
+header {
+  background: #34495e;
+  border-bottom: 1px solid #848484;
+  padding:0;
+  overflow: hidden;
+}
+
+header figure {
+  float: left;
+}
+
+header figure img {
+  border-radius: 100px;
+  border: solid #fff;
+  height: 175px;
+  width: 175px;
+  position: relative;
+}
+
+header hgroup {
+  float: right;
+  text-align: center;
+}
+
+header hgroup h1 {
+  color: #fff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+.container_16 {
+	max-width: 860px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.grid_8,
+.grid_16 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/*contenedores*/
+.container_16 .grid_8 {
+	width: 45.0%;
+  margin-right: 30px;
+}
+
+.container_16 .grid_16 {
+	width: 98.0%;
+}
+
+/*menu*/
+#menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #34495e;
+  color: #fff;
+  padding: 10px;
+  width: 50%;
+  margin: -1px 0px 0px 20%;
+ 
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#menu li {
+  margin-right: 5px;
+}
+
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: #ccc;
+}
+@media (max-width: 600px) {
+  #menu {
+    flex-wrap: wrap;
+  }
+  #menu li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+/**************
+/* Conocimiento 
+***************/
+.experiences ul, .training ul {
+  /*margin-left: 60px;*/
+  padding: 0px;
+}
+
+.Conocimiento  .values {
+  padding: 0px;
+}
+
+.Conocimiento  .values li {
+  margin-bottom: 21px;
+  position: relative;
+  list-style: none;
+  font: 400 14px oswald, sans-serif;
+}
+
+.Conocimiento  .values li:after {
+		background: #e1e1e1;
+		bottom: -4px;
+		content: ' ';
+		display: block;
+		height: 5px;
+		position: absolute;
+		width: 100%;
+	}
+
+.Conocimiento  .values li span {
+  background: #33a4c9;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 1;
+}
+
+.grid_8 ul {
+  padding: 15px;
+}
+
+.grid_8 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+.grid_8 .information li:before, .grid_8 .contact li:before {
+  
+  content: '\2022';
+ 
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: 0;
+  color: #33a4c9;
+  font-size: 20px;
+}
+
+.grid_16
+
+.site {
+  background-position: 0 -2px;
+  color: #848484;
+  font: 400 15px oswald, sans-serif;
+}
+	
+.date {
+  background-position: 0 -22px;
+  color: #999;
+  font: 400 15px oswald, sans-serif;
+}
+
+.phone {
+  background-position: 0 -40px;
+}
+
+.mail {
+  background-position: 0 -58px;
+}
+
+.blog {
+  background-position: 0 -80px;
+}
+
+
+
+.social {
+  width: 40px;
+  height: 40px;
+  margin: 10px 38px 25px 38px;
+}
+
+.formation1 {
+  float: left;
+}
+
+.formation2 {
+  float: right;
+}
+h3 {
+  border-bottom: 1px solid #BDBDBD;
+  padding: 0 0 35px 60px;
+  margin-top: 20px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+div {
+  
+  margin-top: 30px;
+}
+#Experiencia, #Formacion, #Redes {
+  display: none;
+}
+
